@@ -1,8 +1,11 @@
 import java.util.*;
 import java.util.Scanner;
 import java.util.Random;
-public class Main {
-public static void main(String[] args) {
+ 
+public class Main 
+{
+ public static void main(String[] args)
+ {
 Scanner sc= new Scanner(System.in);
 Random randomNum = new Random();
 int targetnum = randomNum.nextInt(100)+1;
